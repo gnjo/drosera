@@ -287,7 +287,7 @@ Yを押すと常に詳細。Bで閉じる。
 w|a|i|s
 
 $items={no,name,type,rmin,rmax,atktimes,dd,foundflg,marks0,droptrank}
-1,ハイメイル　,a,-,-,-,0,1,false,＋Ａ１,1
+1,ハイメイル　,a,-,-,-,0,1,false,＊Ａ１,1
 
 //descs.no
 $descs.1=
