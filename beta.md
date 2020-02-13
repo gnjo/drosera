@@ -36,8 +36,10 @@ Zは内部的に１から９割とし、増加数値を表示
 ```
 汎用の関数はfnに加える。
 svgへのアクセス。
-svgc.id //class,timeout
-svgt.id //text
+svg._ //buffer
+svg.cls.id //class,timeout
+svg.txt.id //text
+svg.src.id //src
 
 ```
 
