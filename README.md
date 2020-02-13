@@ -157,3 +157,15 @@ Yを押すと常に詳細。Bで閉じる。
 ５０可能、２５可能、１３不可。
 ```
 
+## データへのアクセス
+```
+/*keylist
+aaa.bbbb 
+aaa.cccc
+*/
+sys.ini(fn)
+sys.get() //readonly
+sys.set(key,val)
+
+```
+
