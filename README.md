@@ -294,15 +294,19 @@ AB + <^v>
 記号を付与する事により武具のデータは少なくて済む。
 w|a|i|s
 
-$items={no,name,type,rmin,rmax,atktimes,dd,foundflg,marks0,droptrank}
+$items={no,name,type,rmin,rmax,atktimes,dd,foundflg,marks,marksop,droplv}
 1,ハイメイル　,a,-,-,-,0,1,false,＊Ａ１,1
 
+//droplv > 出現域
 //descs.no
 $descs.1=
 とても強靭なメイル。
-攻撃力：０～０　撃回数：０　防御力：１　ランク：１
-特殊効果：＊Ａ１＞敏捷＋１
+出現域：雁金　防御力：１　撃回数：０　攻撃力：０～０
+敏捷＋１　体力＋２
+基礎効果：＊Ａ１＞敏捷＋１
 ＊は能力値を示す。Ａは敏捷を示す。１は補正値。
+練成効果：＊∨２＞体力＋２
+＊は能力値を示す。∨は体力を示す。２は補正値。
 ```
 
 ## 状態異常
