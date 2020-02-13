@@ -40,3 +40,14 @@ svgc.id //class,timeout
 svgt.id //text
 
 ```
+
+```
+slot
+スロットにしか文字は入らない。
+
+320,240
+
+
+```
+
+
