@@ -37,7 +37,7 @@ Zは内部的に１から９割とし、増加数値を表示
 svg へのアクセスは
 v_を使用する。
 let re_viewhead=/^v_/
-get:(o,k,v)=>{
+set:(o,k,v)=>{
  if(re_viewhead.test(k)) fn.q('#'+k).textContent=v;
  o[k]=v
 }
