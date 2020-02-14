@@ -64,3 +64,20 @@
 ベベル
 ゴドルフィン
 ```
+
+## spacebeauty
+```
+fn.toBig
+function spacebeauty(ary,max,sp){
+ sp='　'
+ let a=ary.map(fn.toBig)
+ let str=Array(max+1).join(sp)
+ let l=a[0].length,c=a[1].length,r=a[2].length
+ let space=max-l-r,tipflg=tab%2
+ space=Math.float(space/2)
+ rsp=str.slice(0,space)
+ lsp=tipflg?str.slice(0,space+1):rsp
+ return a[0]+rsp+a[1]+lsp+a[2]
+}
+```
+
