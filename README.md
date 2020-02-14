@@ -329,9 +329,9 @@ AB + <^v> ：ゲーム進行
 記号を付与する事により武具のデータは少なくて済む。
 a|r|d|w|i|s
 //armor,robe,defs,weapon,items,special
-
-$items={no,name,type,rmin,rmax,atktimes,dd,foundflg,marks,marksop,droplv,sell}
-1,ハイメイル　,a,-,-,-,0,1,false,＊Ａ１,1,1000
+//itemはusecountがある。
+$items={no,name,type,rmin,rmax,atktimes,dd,foundflg,marks,marksop,droplv,usecount,sell}
+1,ハイメイル　,a,-,-,-,0,1,false,＊Ａ１,1,-,1000
 
 //droplv > 出現域
 //descs.no
@@ -362,6 +362,14 @@ $descs.1=
 バリゾは、敵味方問わず興奮を振り巻く。
 メゾホールは、敵味方問わず魔散を巻く。
 レムレンは、敵味方問わず睡眠を振り巻く。
+```
+
+## 状態異常回復
+```
+状態異常回復は、道具でしか回復できない。
+道具の優位性。道具は壊れるまで使用できる。スキル回数を消費しない。常に全体。
+取得した時点で使用回数が決まっている。装備する事で使用する。
+零の場合に使用不可。
 ```
 
 ## 冒険者の特殊記号
