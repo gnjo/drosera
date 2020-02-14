@@ -81,3 +81,11 @@ function spacebeauty(ary,max,sp){
 }
 ```
 
+## box drawing
+```
+┏━━━━━━━━━━━━┓
+┃                      ┃
+┃                      ┃
+┃                      ┃
+┗━━━━━━━━━━━━┛
+```
